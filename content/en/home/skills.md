@@ -10,24 +10,28 @@ headless: true
 weight: 30
 
 title: Skills
-subtitle:
+subtitle: for data science
 
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 90%
-  icon: r-project
+- description: Jupyter, 90%
+  icon: python
   icon_pack: fab
-  name: R
-- description: 100%
+  name: Python
+- description: Machine Learning, 80%
   icon: chart-line
   icon_pack: fas
   name: Statistics
 - description: 10%
-  icon: camera-retro
+  icon: chart-bar
   icon_pack: fas
-  name: Photography
+  name: Machine Learning 
+- description: 10%
+  icon: network-wired
+  icon_pack: fas
+  name: Deep Learning
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
