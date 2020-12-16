@@ -29,6 +29,8 @@ content:
     tag: '*'
   - name: Deep Learning
     tag: Deep Learning
+  - name: MEG
+    tag: MEG
   - name: Other
     tag: Demo
 

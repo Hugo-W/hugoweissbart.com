@@ -16,19 +16,19 @@ subtitle: for data science
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: Jupyter, 90%
+- description: Jupyter, scikit-learn, MNE-python, matplotlib, numpy, numba
   icon: python
   icon_pack: fab
   name: Python
-- description: Machine Learning, 80%
+- description: Machine Learning, Linear regression, GLM, GAM
   icon: chart-line
   icon_pack: fas
   name: Statistics
-- description: 10%
+- description: Regression model, clustering, ...
   icon: chart-bar
   icon_pack: fas
   name: Machine Learning 
-- description: 10%
+- description: RNN for language model, attention network, variational AE
   icon: network-wired
   icon_pack: fas
   name: Deep Learning
