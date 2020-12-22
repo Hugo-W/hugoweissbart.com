@@ -153,6 +153,56 @@
   </url>
   
   <url>
+    <loc>https://hugoweissbart.com/talk/leuven/</loc>
+    <lastmod>2020-01-14T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugoweissbart.com/tag/eeg/</loc>
+    <lastmod>2020-01-14T13:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/tag/eeg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://hugoweissbart.com/tag/eeg/"
+                />
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-01-14T13:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href=""
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href=""
+                />
+  </url>
+  
+  <url>
+    <loc>https://hugoweissbart.com/tag/predictive-processing/</loc>
+    <lastmod>2020-01-14T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugoweissbart.com/tag/syntax/</loc>
+    <lastmod>2020-01-14T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://hugoweissbart.com/tag/trf/</loc>
+    <lastmod>2020-01-14T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://hugoweissbart.com/publication-type/2/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -168,21 +218,6 @@
   </url>
   
   <url>
-    <loc>https://hugoweissbart.com/tag/comprehension/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/tag/comprehension/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/tag/comprehension/"
-                />
-  </url>
-  
-  <url>
     <loc>https://hugoweissbart.com/publication/weissbart_jocn2020/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -194,36 +229,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://hugoweissbart.com/publication/weissbart_jocn2020/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hugoweissbart.com/tag/eeg/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/tag/eeg/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/tag/eeg/"
-                />
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href=""
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href=""
                 />
   </url>
   
@@ -335,6 +340,11 @@
                 hreflang="en"
                 href="https://hugoweissbart.com/slides/example/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://hugoweissbart.com/talk/poster_snl2017/</loc>
+    <lastmod>2017-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
