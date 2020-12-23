@@ -45,7 +45,7 @@ links:
  - name: Data and software
    url: https://figshare.com/articles/code/Example_code_for_linguistic_TRFs_in_delta_band/9034481/3
 
-url_pdf: '/static/media/JoCN_Weissbart_2020.pdf'
+url_pdf: '/media/JoCN_Weissbart_2020.pdf'
 url_code: 'https://figshare.com/articles/code/Example_code_for_linguistic_TRFs_in_delta_band/9034481/3'
 url_dataset: 'https://figshare.com/articles/code/Example_code_for_linguistic_TRFs_in_delta_band/9034481/3'
 url_poster: ''
@@ -67,7 +67,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-- eeg-correlates-cmprehension
+- eeg-correlates-comprehension
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
