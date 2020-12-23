@@ -29,7 +29,7 @@ featured: false
 
 links:
 url_code: ""
-url_pdf: "/static/media/DecodingComprehension_HugoWeissbart.pdf"
+url_pdf: "/media/DecodingComprehension_HugoWeissbart.pdf"
 url_slides: ""
 url_video: ""
 

@@ -41,6 +41,6 @@ categories:
 
 <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2180317691/size=small/bgcol=333333/linkcol=4ec5ec/track=4257245953/transparent=true/" seamless><a href="https://axnscollective.bandcamp.com/album/sines-an-lsd-brain-wave-and-sound-art-hackathon">SINES - an LSD brain wave and sound art hackathon by AXNS Collective</a></iframe>
 
-This piece was produced over a two-day LSD brain wave and sound art hackathon in March 2017, organised by AXNS Collective and in collaboration with Imperial College London and Music Hackspace.
+This piece was produced over a two-day brain wave and sound art hackathon in March 2017, organised by AXNS Collective and in collaboration with Imperial College London and Music Hackspace.
 
-Bringing sound artists and neuroscientist together to synthesize sonic atmospheres and music from MEG activity recorded by Dr. Robin Carhart-Harris, Head of Psychedelic Research in the Division of Brain Sciences at Imperial College London. Listen to more [here](https://axnscollective.bandcamp.com/album/sines-an-lsd-brain-wave-and-sound-art-hackathon).
+Bringing sound artists and neuroscientist together to synthesize sonic atmospheres and music from MEG activity recorded by Dr. Robin Carhart-Harris, Head of Psychedelic Research in the Division of Brain Sciences at Imperial College London. Listen to more [on the AXNS collective page](https://axnscollective.bandcamp.com/album/sines-an-lsd-brain-wave-and-sound-art-hackathon).
