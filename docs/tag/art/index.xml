@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Random Pattern &amp; Regular Noise</title>
-    <link>https://hugoweissbart.com/post/</link>
-      <atom:link href="https://hugoweissbart.com/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
+    <title>Art | Random Pattern &amp; Regular Noise</title>
+    <link>https://hugoweissbart.com/tag/art/</link>
+      <atom:link href="https://hugoweissbart.com/tag/art/index.xml" rel="self" type="application/rss+xml" />
+    <description>Art</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 May 2017 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://hugoweissbart.com/images/icon_hucc679a67ce0ba819370fc3906c9c7b25_53177_512x512_fill_lanczos_center_2.png</url>
-      <title>Posts</title>
-      <link>https://hugoweissbart.com/post/</link>
+      <title>Art</title>
+      <link>https://hugoweissbart.com/tag/art/</link>
     </image>
     
     <item>
