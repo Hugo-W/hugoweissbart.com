@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 | H. Weissbart</title>
+    <title>2 | Random Pattern &amp; Regular Noise</title>
     <link>https://hugoweissbart.com/publication-type/2/</link>
       <atom:link href="https://hugoweissbart.com/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hugoweissbart.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://hugoweissbart.com/images/icon_hucc679a67ce0ba819370fc3906c9c7b25_53177_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
       <link>https://hugoweissbart.com/publication-type/2/</link>
     </image>
@@ -29,6 +29,14 @@
 &lt;/div&gt;
 &lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Modulation of Speech-in-Noise Comprehension Through Transcranial Current Stimulation With the Phase-Shifted Speech Envelope</title>
+      <link>https://hugoweissbart.com/publication/modulation_sin/</link>
+      <pubDate>Sun, 24 Nov 2019 18:37:13 +0100</pubDate>
+      <guid>https://hugoweissbart.com/publication/modulation_sin/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -5,16 +5,6 @@
   <url>
     <loc>https://hugoweissbart.com/fr/talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/talk/example/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/talk/example/"
-                />
   </url>
   
   <url>
@@ -155,16 +145,6 @@
   <url>
     <loc>https://hugoweissbart.com/fr/tag/comprehension/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/tag/comprehension/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/tag/comprehension/"
-                />
   </url>
   
   <url>
@@ -395,16 +375,6 @@
   <url>
     <loc>https://hugoweissbart.com/fr/tag/academic/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/tag/academic/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/tag/academic/"
-                />
   </url>
   
   <url>
@@ -425,16 +395,6 @@
   <url>
     <loc>https://hugoweissbart.com/fr/category/demo/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/category/demo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/category/demo/"
-                />
   </url>
   
   <url>
@@ -470,106 +430,36 @@
   <url>
     <loc>https://hugoweissbart.com/fr/post/getting-started/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/post/getting-started/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/post/getting-started/"
-                />
   </url>
   
   <url>
     <loc></loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href=""
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href=""
-                />
   </url>
   
   <url>
     <loc>https://hugoweissbart.com/fr/tag/%E5%BC%80%E6%BA%90/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/tag/%E5%BC%80%E6%BA%90/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/tag/%E5%BC%80%E6%BA%90/"
-                />
   </url>
   
   <url>
     <loc>https://hugoweissbart.com/fr/category/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/category/%E6%95%99%E7%A8%8B/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/category/%E6%95%99%E7%A8%8B/"
-                />
   </url>
   
   <url>
     <loc>https://hugoweissbart.com/fr/publication-type/1/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/publication-type/1/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/publication-type/1/"
-                />
   </url>
   
   <url>
     <loc>https://hugoweissbart.com/fr/publication/example/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/publication/example/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/publication/example/"
-                />
   </url>
   
   <url>
     <loc></loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href=""
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href=""
-                />
   </url>
   
 </urlset>
