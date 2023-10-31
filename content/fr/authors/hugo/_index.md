@@ -46,9 +46,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: '/#contact'
-#- icon: twitter
-#  icon_pack: fab
-#  link: https://twitter.com/GeorgeCushen
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0003-2820-3865
@@ -57,7 +54,7 @@ social:
   link: https://www.researchgate.net/profile/Hugo_Weissbart
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.pl/citations?hl=en&user=Q55ttB0AAAAJ
 - icon: github
   icon_pack: fab
   link: https://github.com/Hugo-W
@@ -79,8 +76,6 @@ email: ""
 highlight_name: false
 ---
 
-Hugo Weissbart is a postdoctoral researcher in the the Language and Computation in Neural System lab at the Donders Intitute, Nijmegen. His research is focused on the predictive aspect of neural computation leading to comprehension of speech. This encompasses the questions of how the brain produces hierarchical linguistic representations in a predictive fashion and how cortical oscillations maintain and coordinate those representations.
-
-Beyond the analysis of neuroimaging data, mainly EEG and MEG, I also build computational model to answer those questions. The aim is both to explain and predict neural activty through the refinement of those model while they allow to incorporate mechanistic insight on how certain computation may arise.
+Je suis chercheur postdoctoral dans le laboratoire Language and Computation in Neural System de l'Institut Donders, Nimègue (Pays-Bas). Mes recherches portent sur l'aspect prédictif des processus neuronaux menant à la compréhension de la parole. Cela englobe les questions de savoir comment le cerveau produit des représentations linguistiques hiérarchiques de manière prédictive et comment les oscillations corticales maintiennent et coordonnent ces représentations. Pour cela, je m'appuie principalement sur l'analyse de signaux M/EEG, dans des contextes naturels (naturalistic stimuli) et sur la modélisation informatique.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

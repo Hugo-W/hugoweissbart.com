@@ -11,6 +11,29 @@
 [fr]
   languageCode = "fr"
   contentDir = "content/fr"
+  title = ""
+[[fr.menu.main]]
+  name = "Home"
+  url = '#about'
+  weight = 1
+[[fr.menu.main]]
+  name = "Publications"
+  url = '#featured'
+  weight = 2
+[[fr.menu.main]]
+  name = "Presentations"
+  url = '#talks'
+  weight = 4
+[[fr.menu.main]]
+  name = "Tutos"
+  url = 'tutorials/'
+  weight = 5
+[[fr.menu.main]]
+  name = "Me contacter"
+  url = '#contact'
+  weight = 6
+
+
 #[zh]
 #  languageCode = "zh-Hans"
 #  contentDir = "content/zh"

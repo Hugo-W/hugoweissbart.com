@@ -13,10 +13,10 @@
   url = "#posts"
   weight = 20
 
-[[main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 30
+#[[main]]
+#  name = "Projects"
+#  url = "./drafts/#projects"
+#  weight = 30
 
 [[main]]
   name = "Talks"
@@ -29,8 +29,8 @@
   weight = 50
 
 [[main]]
-  name = "Notes"
-  url = "courses/"
+  name = "Tutorials"
+  url = "tutorials/"
   weight = 60
 
 [[main]]

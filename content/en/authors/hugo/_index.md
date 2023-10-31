@@ -79,7 +79,6 @@ email: ""
 highlight_name: false
 ---
 
-I am a postdoctoral researcher in the the Language and Computation in Neural System lab at the Donders Intitute, Nijmegen. My research focuses on the predictive aspect of neural computation leading to comprehension of speech. This encompasses the questions of how the brain produces hierarchical linguistic representations in a predictive fashion and how cortical oscillations maintain and coordinate those representations.
-Tools: M/EEG analsysis + computational modelling 
+I am a postdoctoral researcher in the the Language and Computation in Neural System lab at the Donders Intitute, Nijmegen. My research focuses on the predictive aspect of neural computation leading to comprehension of speech. This encompasses the questions of how the brain produces hierarchical linguistic representations in a predictive fashion and how cortical oscillations maintain and coordinate those representations. To this end, I rely mostly on M/EEG analysis with naturalistic stimuli and computational modelling.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
