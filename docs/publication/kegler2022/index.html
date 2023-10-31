@@ -1,0 +1,1312 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Hugo Weissbart">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Spoken language comprehension requires rapid and continuous integration of information, from lower-level acoustic to higher-level linguistic features. Much of this processing occurs in the cerebral cortex. Its neural activity exhibits, for instance, correlates of predictive processing, emerging at delays of a few 100 ms. However, the auditory pathways are also characterized by extensive feedback loops from higher-level cortical areas to lower-level ones as well as to subcortical structures. Early neural activity can therefore be influenced by higher-level cognitive processes, but it remains unclear whether such feedback contributes to linguistic processing. Here, we investigated early speech-evoked neural activity that emerges at the fundamental frequency. We analyzed EEG recordings obtained when subjects listened to a story read by a single speaker. We identified a response tracking the speaker&#39;s fundamental frequency that occurred at a delay of 11 ms, while another response elicited by the high-frequency modulation of the envelope of higher harmonics exhibited a larger magnitude and longer latency of about 18 ms with an additional significant component at around 40 ms. Notably, while the earlier components of the response likely originate from the subcortical structures, the latter presumably involves contributions from cortical regions. Subsequently, we determined the magnitude of these early neural responses for each individual word in the story. We then quantified the context-independent frequency of each word and used a language model to compute context-dependent word surprisal and precision. The word surprisal represented how predictable a word is, given the previous context, and the word precision reflected the confidence about predicting the next word from the past context. We found that the word-level neural responses at the fundamental frequency were predominantly influenced by the acoustic features: the average fundamental frequency and its variability. Amongst the linguistic features, only context-independent word frequency showed a weak but significant modulation of the neural response to the high-frequency envelope modulation. Our results show that the early neural response at the fundamental frequency is already influenced by acoustic as well as linguistic information, suggesting top-down modulation of this neural response. ">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://hugoweissbart.com/publication/kegler2022/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.min.63f98e6c466986bcda9f610684ce1996.css">
+
+  
+
+
+
+
+  
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hucc679a67ce0ba819370fc3906c9c7b25_53177_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hucc679a67ce0ba819370fc3906c9c7b25_53177_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://hugoweissbart.com/publication/kegler2022/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Random Pattern &amp; Regular Noise">
+  <meta property="og:url" content="https://hugoweissbart.com/publication/kegler2022/">
+  <meta property="og:title" content="The neural response at the fundamental frequency of speech is modulated by word-level acoustic and linguistic information | Random Pattern &amp; Regular Noise">
+  <meta property="og:description" content="Spoken language comprehension requires rapid and continuous integration of information, from lower-level acoustic to higher-level linguistic features. Much of this processing occurs in the cerebral cortex. Its neural activity exhibits, for instance, correlates of predictive processing, emerging at delays of a few 100 ms. However, the auditory pathways are also characterized by extensive feedback loops from higher-level cortical areas to lower-level ones as well as to subcortical structures. Early neural activity can therefore be influenced by higher-level cognitive processes, but it remains unclear whether such feedback contributes to linguistic processing. Here, we investigated early speech-evoked neural activity that emerges at the fundamental frequency. We analyzed EEG recordings obtained when subjects listened to a story read by a single speaker. We identified a response tracking the speaker&#39;s fundamental frequency that occurred at a delay of 11 ms, while another response elicited by the high-frequency modulation of the envelope of higher harmonics exhibited a larger magnitude and longer latency of about 18 ms with an additional significant component at around 40 ms. Notably, while the earlier components of the response likely originate from the subcortical structures, the latter presumably involves contributions from cortical regions. Subsequently, we determined the magnitude of these early neural responses for each individual word in the story. We then quantified the context-independent frequency of each word and used a language model to compute context-dependent word surprisal and precision. The word surprisal represented how predictable a word is, given the previous context, and the word precision reflected the confidence about predicting the next word from the past context. We found that the word-level neural responses at the fundamental frequency were predominantly influenced by the acoustic features: the average fundamental frequency and its variability. Amongst the linguistic features, only context-independent word frequency showed a weak but significant modulation of the neural response to the high-frequency envelope modulation. Our results show that the early neural response at the fundamental frequency is already influenced by acoustic as well as linguistic information, suggesting top-down modulation of this neural response. "><meta property="og:image" content="https://hugoweissbart.com/images/icon_hucc679a67ce0ba819370fc3906c9c7b25_53177_512x512_fill_lanczos_center_3.png">
+  <meta property="twitter:image" content="https://hugoweissbart.com/images/icon_hucc679a67ce0ba819370fc3906c9c7b25_53177_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2017-01-01T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2022-07-17T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://hugoweissbart.com/publication/kegler2022/"
+  },
+  "headline": "The neural response at the fundamental frequency of speech is modulated by word-level acoustic and linguistic information",
+  
+  "datePublished": "2017-01-01T00:00:00Z",
+  "dateModified": "2022-07-17T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Miklaj Kegler"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Random Pattern \u0026 Regular Noise",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://hugoweissbart.com/images/icon_hucc679a67ce0ba819370fc3906c9c7b25_53177_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Spoken language comprehension requires rapid and continuous integration of information, from lower-level acoustic to higher-level linguistic features. Much of this processing occurs in the cerebral cortex. Its neural activity exhibits, for instance, correlates of predictive processing, emerging at delays of a few 100 ms. However, the auditory pathways are also characterized by extensive feedback loops from higher-level cortical areas to lower-level ones as well as to subcortical structures. Early neural activity can therefore be influenced by higher-level cognitive processes, but it remains unclear whether such feedback contributes to linguistic processing. Here, we investigated early speech-evoked neural activity that emerges at the fundamental frequency. We analyzed EEG recordings obtained when subjects listened to a story read by a single speaker. We identified a response tracking the speaker's fundamental frequency that occurred at a delay of 11 ms, while another response elicited by the high-frequency modulation of the envelope of higher harmonics exhibited a larger magnitude and longer latency of about 18 ms with an additional significant component at around 40 ms. Notably, while the earlier components of the response likely originate from the subcortical structures, the latter presumably involves contributions from cortical regions. Subsequently, we determined the magnitude of these early neural responses for each individual word in the story. We then quantified the context-independent frequency of each word and used a language model to compute context-dependent word surprisal and precision. The word surprisal represented how predictable a word is, given the previous context, and the word precision reflected the confidence about predicting the next word from the past context. We found that the word-level neural responses at the fundamental frequency were predominantly influenced by the acoustic features: the average fundamental frequency and its variability. Amongst the linguistic features, only context-independent word frequency showed a weak but significant modulation of the neural response to the high-frequency envelope modulation. Our results show that the early neural response at the fundamental frequency is already influenced by acoustic as well as linguistic information, suggesting top-down modulation of this neural response. "
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>The neural response at the fundamental frequency of speech is modulated by word-level acoustic and linguistic information | Random Pattern &amp; Regular Noise</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Random Pattern &amp; Regular Noise</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Random Pattern &amp; Regular Noise</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>Talks</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/tutorials/"><span>Tutorials</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/media/resume.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+<div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>The neural response at the fundamental frequency of speech is modulated by word-level acoustic and linguistic information</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span >
+      Miklaj Kegler</span>, <span >
+      Hugo Weissbart</span>, <span >
+      Tobias Reichenbach</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    July 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/kegler2022/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.3389/fnins.2022.915744" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+</div>
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Spoken language comprehension requires rapid and continuous integration of information, from lower-level acoustic to higher-level linguistic features. Much of this processing occurs in the cerebral cortex. Its neural activity exhibits, for instance, correlates of predictive processing, emerging at delays of a few 100 ms. However, the auditory pathways are also characterized by extensive feedback loops from higher-level cortical areas to lower-level ones as well as to subcortical structures. Early neural activity can therefore be influenced by higher-level cognitive processes, but it remains unclear whether such feedback contributes to linguistic processing. Here, we investigated early speech-evoked neural activity that emerges at the fundamental frequency. We analyzed EEG recordings obtained when subjects listened to a story read by a single speaker. We identified a response tracking the speaker&rsquo;s fundamental frequency that occurred at a delay of 11 ms, while another response elicited by the high-frequency modulation of the envelope of higher harmonics exhibited a larger magnitude and longer latency of about 18 ms with an additional significant component at around 40 ms. Notably, while the earlier components of the response likely originate from the subcortical structures, the latter presumably involves contributions from cortical regions. Subsequently, we determined the magnitude of these early neural responses for each individual word in the story. We then quantified the context-independent frequency of each word and used a language model to compute context-dependent word surprisal and precision. The word surprisal represented how predictable a word is, given the previous context, and the word precision reflected the confidence about predicting the next word from the past context. We found that the word-level neural responses at the fundamental frequency were predominantly influenced by the acoustic features: the average fundamental frequency and its variability. Amongst the linguistic features, only context-independent word frequency showed a weak but significant modulation of the neural response to the high-frequency envelope modulation. Our results show that the early neural response at the fundamental frequency is already influenced by acoustic as well as linguistic information, suggesting top-down modulation of this neural response.</p>
+    
+
+    
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            <a href="/publication/#2">
+              Journal article
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Frontiers in Neuroscience</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/brainstem-recording/">brainstem recording</a>
+  
+  <a class="badge badge-light" href="/tag/backward-model/">Backward model</a>
+  
+  <a class="badge badge-light" href="/tag/trf/">TRF</a>
+  
+  <a class="badge badge-light" href="/tag/cortical-tracking/">cortical tracking</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://hugoweissbart.com"><img class="avatar mr-3 avatar-circle" src="/authors/hugo/avatar_hucc679a67ce0ba819370fc3906c9c7b25_53177_270x270_fill_lanczos_center_3.png" alt="Hugo Weissbart"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://hugoweissbart.com">Hugo Weissbart</a></h5>
+      <h6 class="card-subtitle">Postdoctoral researcher</h6>
+      <p class="card-text">Focusing on the neurobiology of language comprehension, from a predictive processing perspective.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0003-2820-3865" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.researchgate.net/profile/Hugo_Weissbart" target="_blank" rel="noopener">
+        <i class="ai ai-researchgate"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.pl/citations?hl=en&amp;user=Q55ttB0AAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/Hugo-W" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/hugo-weissbart" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/publication/weissbart_jocn2020/">Cortical Tracking of Surprisal during Continuous Speech Comprehension</a></li>
+      
+      <li><a href="/publication/weissbart_preprint2023/">The Structure and Statistics of Language jointly shape Cross-frequency Dynamics during Spoken Language Comprehension</a></li>
+      
+      <li><a href="/publication/tezcan2023/">A tradeoff between acoustic and linguistic feature encoding in spoken language comprehension</a></li>
+      
+      <li><a href="/talk/leuven/">Cortical tracking of linguistic features in continuous EEG</a></li>
+      
+      <li><a href="/publication/slaats2023/">Delta-Band Neural Responses to Individual Words Are Modulated by Sentence Processing</a></li>
+      
+    </ul>
+  </div>
+  
+
+
+
+
+
+  </div>
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/wowchemy.min.ed1b153769e07dcec1ea079187e7327a.js"></script>
+
+    
+
+
+</body>
+</html>

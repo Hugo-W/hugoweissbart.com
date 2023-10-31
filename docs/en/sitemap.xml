@@ -1,23 +1,175 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://hugoweissbart.com/courses/example/example1/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hugoweissbart.com/courses/example/</loc>
+    <loc>https://hugoweissbart.com/tutorials/trfs/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hugoweissbart.com/courses/example/example2/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://hugoweissbart.com/draft/skills/</loc>
+  </url><url>
+    <loc>https://hugoweissbart.com/draft/accomplishments/</loc>
+  </url><url>
+    <loc>https://hugoweissbart.com/draft/projects/</loc>
+  </url><url>
+    <loc>https://hugoweissbart.com/draft/publications/</loc>
+  </url><url>
+    <loc>https://hugoweissbart.com/draft/tags/</loc>
+  </url><url>
+    <loc>https://hugoweissbart.com/publication-type/3/</loc>
+    <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoweissbart.com/tag/meg/</loc>
+    <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/tag/meg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/tag/meg/"
+                />
+  </url><url>
+    <loc>https://hugoweissbart.com/tag/phase-amplitude-coupling/</loc>
+    <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoweissbart.com/tag/predictive-processing/</loc>
+    <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoweissbart.com/publication_types/</loc>
+    <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/publication_types/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/publication_types/"
+                />
+  </url><url>
+    <loc>https://hugoweissbart.com/publication/</loc>
+    <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/publication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/publication/"
+                />
+  </url><url>
+    <loc>https://hugoweissbart.com/</loc>
+    <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/"
+                />
+  </url><url>
+    <loc>https://hugoweissbart.com/tag/speech/</loc>
+    <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/tag/speech/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/tag/speech/"
+                />
+  </url><url>
+    <loc>https://hugoweissbart.com/tags/</loc>
+    <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/tags/"
+                />
+  </url><url>
+    <loc>https://hugoweissbart.com/publication/weissbart_preprint2023/</loc>
+    <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoweissbart.com/tag/trf/</loc>
+    <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoweissbart.com/publication-type/2/</loc>
+    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/publication-type/2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/publication-type/2/"
+                />
+  </url><url>
+    <loc>https://hugoweissbart.com/tag/cortical-oscillations/</loc>
+    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoweissbart.com/tag/syntax/</loc>
+    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoweissbart.com/publication/nat2023/</loc>
+    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoweissbart.com/publication/tezcan2023/</loc>
+    <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoweissbart.com/publication/slaats2023/</loc>
+    <lastmod>2023-06-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoweissbart.com/tag/eeg/</loc>
+    <lastmod>2023-06-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/tag/eeg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/tag/eeg/"
+                />
+  </url><url>
+    <loc>https://hugoweissbart.com/tag/beta-oscillations/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoweissbart.com/tag/dependency-parsing/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoweissbart.com/publication/zioga2023/</loc>
+    <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoweissbart.com/tag/backward-model/</loc>
+    <lastmod>2022-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoweissbart.com/tag/brainstem-recording/</loc>
+    <lastmod>2022-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoweissbart.com/tag/cortical-tracking/</loc>
+    <lastmod>2022-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://hugoweissbart.com/publication/kegler2022/</loc>
+    <lastmod>2022-07-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hugoweissbart.com/tag/deep-learning/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -27,12 +179,10 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://hugoweissbart.com/tag/deep-learning/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/project/sentence_vae/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -42,27 +192,10 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://hugoweissbart.com/project/sentence_vae/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://hugoweissbart.com/tag/meg/</loc>
-    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/tag/meg/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/tag/meg/"
-                />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/project/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -72,102 +205,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://hugoweissbart.com/project/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://hugoweissbart.com/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hugoweissbart.com/tags/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href=""
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href=""
-                />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/talk/leuven/</loc>
     <lastmod>2020-01-14T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hugoweissbart.com/tag/eeg/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/tag/eeg/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/tag/eeg/"
-                />
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href=""
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href=""
-                />
-  </url>
-  
-  <url>
-    <loc>https://hugoweissbart.com/tag/predictive-processing/</loc>
-    <lastmod>2020-01-14T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hugoweissbart.com/tag/syntax/</loc>
-    <lastmod>2020-01-14T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/talk/</loc>
     <lastmod>2020-01-14T13:00:00+00:00</lastmod>
     <xhtml:link
@@ -177,32 +221,10 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://hugoweissbart.com/talk/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://hugoweissbart.com/tag/trf/</loc>
-    <lastmod>2020-01-14T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hugoweissbart.com/publication-type/2/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/publication-type/2/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/publication-type/2/"
-                />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/publication/weissbart_jocn2020/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -212,112 +234,19 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://hugoweissbart.com/publication/weissbart_jocn2020/"
                 />
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href=""
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href=""
-                />
-  </url>
-  
-  <url>
-    <loc>https://hugoweissbart.com/publication_types/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/publication_types/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/publication_types/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hugoweissbart.com/publication/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/publication/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/publication/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://hugoweissbart.com/tag/speech/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/tag/speech/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://hugoweissbart.com/tag/speech/"
-                />
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href=""
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href=""
-                />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/publication/modulation_sin/</loc>
     <lastmod>2019-11-24T18:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc></loc>
-    <lastmod>2019-11-24T18:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/tag/speech-comprehension/</loc>
     <lastmod>2019-11-24T18:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/tag/tacs/</loc>
     <lastmod>2019-11-24T18:37:13+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://hugoweissbart.com/courses/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -327,12 +256,10 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://hugoweissbart.com/slides/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -342,27 +269,22 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://hugoweissbart.com/slides/example/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
+    <loc>https://hugoweissbart.com/tutorials/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://hugoweissbart.com/talk/poster_snl2017/</loc>
     <lastmod>2017-06-01T13:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/tag/art/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/category/art/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/categories/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -372,12 +294,10 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://hugoweissbart.com/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/post/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -387,17 +307,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://hugoweissbart.com/post/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/post/sines-hackathon/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/project/composition/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -407,12 +323,10 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://hugoweissbart.com/project/composition/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/tag/computational-linguistic/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -422,12 +336,10 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://hugoweissbart.com/tag/computational-linguistic/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/project/example/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -437,12 +349,10 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://hugoweissbart.com/project/example/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/tag/signal-processing/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -452,12 +362,10 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://hugoweissbart.com/tag/signal-processing/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://hugoweissbart.com/project/phase_trf/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -467,23 +375,10 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="en"
+                hreflang="en-us"
                 href="https://hugoweissbart.com/project/phase_trf/"
                 />
+  </url><url>
+    <loc>https://hugoweissbart.com/draft/</loc>
   </url>
-  
-  <url>
-    <loc></loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href=""
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href=""
-                />
-  </url>
-  
 </urlset>

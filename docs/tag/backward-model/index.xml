@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backward model | Random Pattern &amp; Regular Noise</title>
+    <link>https://hugoweissbart.com/tag/backward-model/</link>
+      <atom:link href="https://hugoweissbart.com/tag/backward-model/index.xml" rel="self" type="application/rss+xml" />
+    <description>Backward model</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 17 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://hugoweissbart.com/images/icon_hucc679a67ce0ba819370fc3906c9c7b25_53177_512x512_fill_lanczos_center_3.png</url>
+      <title>Backward model</title>
+      <link>https://hugoweissbart.com/tag/backward-model/</link>
+    </image>
+    
+    <item>
+      <title>The neural response at the fundamental frequency of speech is modulated by word-level acoustic and linguistic information</title>
+      <link>https://hugoweissbart.com/publication/kegler2022/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://hugoweissbart.com/publication/kegler2022/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

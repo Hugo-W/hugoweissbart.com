@@ -5,12 +5,67 @@
     <link>https://hugoweissbart.com/tag/trf/</link>
       <atom:link href="https://hugoweissbart.com/tag/trf/index.xml" rel="self" type="application/rss+xml" />
     <description>TRF</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Jan 2020 13:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hugoweissbart.com/images/icon_hucc679a67ce0ba819370fc3906c9c7b25_53177_512x512_fill_lanczos_center_2.png</url>
+      <url>https://hugoweissbart.com/images/icon_hucc679a67ce0ba819370fc3906c9c7b25_53177_512x512_fill_lanczos_center_3.png</url>
       <title>TRF</title>
       <link>https://hugoweissbart.com/tag/trf/</link>
     </image>
+    
+    <item>
+      <title>The Structure and Statistics of Language jointly shape Cross-frequency Dynamics during Spoken Language Comprehension</title>
+      <link>https://hugoweissbart.com/publication/weissbart_preprint2023/</link>
+      <pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://hugoweissbart.com/publication/weissbart_preprint2023/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A tradeoff between acoustic and linguistic feature encoding in spoken language comprehension</title>
+      <link>https://hugoweissbart.com/publication/tezcan2023/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://hugoweissbart.com/publication/tezcan2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delta-Band Neural Responses to Individual Words Are Modulated by Sentence Processing</title>
+      <link>https://hugoweissbart.com/publication/slaats2023/</link>
+      <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://hugoweissbart.com/publication/slaats2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Naturalistic Spoken Language Comprehension Is Supported by Alpha and Beta Oscillations</title>
+      <link>https://hugoweissbart.com/publication/zioga2023/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://hugoweissbart.com/publication/zioga2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The neural response at the fundamental frequency of speech is modulated by word-level acoustic and linguistic information</title>
+      <link>https://hugoweissbart.com/publication/kegler2022/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://hugoweissbart.com/publication/kegler2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cortical tracking of linguistic features in continuous EEG</title>
