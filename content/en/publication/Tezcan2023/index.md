@@ -1,21 +1,21 @@
 ---
-title: "Cortical Tracking of Surprisal during Continuous Speech Comprehension"
+title: "A tradeoff between acoustic and linguistic feature encoding in spoken language comprehension"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
+- Filiz Tezcan
 - hugo
-- Katerina D. Kandylaki
-- Tobias Reichenback
+- Andrea E. Martin
 
 # Author notes (optional)
 #author_notes:
 #- "Equal contribution"
 #- "Equal contribution"
 
-date: "2020-01-01T00:00:00Z"
-doi: "10.1162/jocn_a_01467"
+date: "2023-07-07T00:00:00Z"
+doi: "10.7554/eLife.82386"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2017-01-01T00:00:00Z"
@@ -27,27 +27,24 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: Journal of Cognitive Neuroscience
-publication_short: JoCN
+publication: eLife
+publication_short: eLife
 
-abstract: Speech comprehension requires rapid online processing of a continuous acoustic signal to extract structure and meaning. Previous studies on sentence comprehension have found neural correlates of the predictability of a word given its context, as well as of the precision of such a prediction. However, they have focused on single sentences and on particular words in those sentences. Moreover, they compared neural responses to words with low and high predictability, as well as with low and high precision. However, in speech comprehension, a listener hears many successive words whose predictability and precision vary over a large range. Here, we show that cortical activity in different frequency bands tracks word surprisal in continuous natural speech and that this tracking is modulated by precision. We obtain these results through quantifying surprisal and precision from naturalistic speech using a deep neural network and through relating these speech features to EEG responses of human volunteers acquired during auditory story comprehension. We find significant cortical tracking of surprisal at low frequencies, including the delta band as well as in the higher frequency beta and gamma bands, and observe that the tracking is modulated by the precision. Our results pave the way to further investigate the neurobiology of natural speech comprehension.
+abstract: When we comprehend language from speech, the phase of the neural response aligns with particular features of the speech input, resulting in a phenomenon referred to as neural tracking. In recent years, a large body of work has demonstrated the tracking of the acoustic envelope and abstract linguistic units at the phoneme and word levels, and beyond. However, the degree to which speech tracking is driven by acoustic edges of the signal, or by internally-generated linguistic units, or by the interplay of both, remains contentious. In this study, we used naturalistic story-listening to investigate (1) whether phoneme-level features are tracked over and above acoustic edges, (2) whether word entropy, which can reflect sentence- and discourse-level constraints, impacted the encoding of acoustic and phoneme-level features, and (3) whether the tracking of acoustic edges was enhanced or suppressed during comprehension of a first language (Dutch) compared to a statistically familiar but uncomprehended language (French). We first show that encoding models with phoneme-level linguistic features, in addition to acoustic features, uncovered an increased neural tracking response; this signal was further amplified in a comprehended language, putatively reflecting the transformation of acoustic features into internally generated phoneme-level representations. Phonemes were tracked more strongly in a comprehended language, suggesting that language comprehension functions as a neural filter over acoustic edges of the speech signal as it transforms sensory signals into abstract linguistic units. We then show that word entropy enhances neural tracking of both acoustic and phonemic features when sentence- and discourse-context are less constraining. When language was not comprehended, acoustic features, but not phonemic ones, were more strongly modulated, but in contrast, when a native language is comprehended, phoneme features are more strongly modulated. Taken together, our findings highlight the flexible modulation of acoustic, and phonemic features by sentence and discourse-level constraint in language comprehension, and document the neural transformation from speech perception to language comprehension, consistent with an account of language processing as a neural filter from sensory to abstract representations.
 
 # Summary. An optional shortened abstract.
-summary: Word surprisal and word entropy, derived from a recurrent neural networl for language modelling, are represented in EEG signals in several freuqency bands. The neural encoding is quantified using temporal response functions with continuous EEG recorded during naturalsitic story listening.
+summary: "This study addresses a fundamental aspect of human speech processing: namely, how acoustic and linguistic features interact during comprehension."
 
-tags: [EEG, Speech, Predictive Processing, TRF]
+tags: [MEG, Speech, TRF]
 
 # Display this page in the Featured widget?
 featured: true
 
 # Custom links (uncomment lines below)
 links:
- - name: Data and software
-   url: https://figshare.com/articles/code/Example_code_for_linguistic_TRFs_in_delta_band/9034481/3
-
-url_pdf: '/media/JoCN_Weissbart_2020.pdf'
-url_code: 'https://figshare.com/articles/code/Example_code_for_linguistic_TRFs_in_delta_band/9034481/3'
-url_dataset: 'https://figshare.com/articles/code/Example_code_for_linguistic_TRFs_in_delta_band/9034481/3'
+# url_pdf: '/media/JoCN_Weissbart_2020.pdf'
+# url_code: 'https://figshare.com/articles/code/Example_code_for_linguistic_TRFs_in_delta_band/9034481/3'
+# url_dataset: 'https://figshare.com/articles/code/Example_code_for_linguistic_TRFs_in_delta_band/9034481/3'
 url_poster: ''
 url_project: ''
 url_slides: ''
@@ -66,8 +63,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- eeg-correlates-comprehension
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
@@ -76,13 +72,3 @@ projects:
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).

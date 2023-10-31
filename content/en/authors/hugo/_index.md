@@ -17,10 +17,10 @@ organizations:
 bio: Focusing on the neurobiology of language comprehension, from a predictive processing perspective.
 
 # Interests to show in About widget
-interests:
-- Neuroscience
-- Machine Learning
-- Computational Linguistics
+# interests:
+# - Neuroscience
+# - Machine Learning
+# - Computational Linguistics
 
 # Education to show in About widget
 education:

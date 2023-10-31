@@ -7,7 +7,7 @@ title: "Cortical Tracking of Surprisal during Continuous Speech Comprehension"
 authors:
 - hugo
 - Katerina D. Kandylaki
-- Tobias Reichenback
+- Tobias Reichenbach
 
 # Author notes (optional)
 #author_notes:
