@@ -20,3 +20,11 @@ menu:
     name: Content
     weight: 2
 ---
+
+# Linear models: recap
+
+`Temporal response functions` or TRFs are a family of linear models. Specifically the term has been coined to forward encoding model in the context of convolutive linear model applied to electrophysiological data:
+
+$$
+y(t) = (x \star \beta) (t)
+$$
