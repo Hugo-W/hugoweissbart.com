@@ -1,16 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>speech | </title>
+    <title>Speech | </title>
     <link>https://hugoweissbart.com/fr/tag/speech/</link>
       <atom:link href="https://hugoweissbart.com/fr/tag/speech/index.xml" rel="self" type="application/rss+xml" />
-    <description>speech</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <description>Speech</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr</language><lastBuildDate>Fri, 06 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://hugoweissbart.com/images/icon_hucc679a67ce0ba819370fc3906c9c7b25_53177_512x512_fill_lanczos_center_3.png</url>
-      <title>speech</title>
+      <url>https://hugoweissbart.com/media/icon_hucc679a67ce0ba819370fc3906c9c7b25_53177_512x512_fill_lanczos_center_3.png</url>
+      <title>Speech</title>
       <link>https://hugoweissbart.com/fr/tag/speech/</link>
     </image>
+    
+    <item>
+      <title>The Structure and Statistics of Language jointly shape Cross-frequency Dynamics during Spoken Language Comprehension</title>
+      <link>https://hugoweissbart.com/fr/publication/weissbart_preprint2023/</link>
+      <pubDate>Fri, 06 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://hugoweissbart.com/fr/publication/weissbart_preprint2023/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A tradeoff between acoustic and linguistic feature encoding in spoken language comprehension</title>
+      <link>https://hugoweissbart.com/fr/publication/tezcan2023/</link>
+      <pubDate>Fri, 07 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://hugoweissbart.com/fr/publication/tezcan2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Delta-Band Neural Responses to Individual Words Are Modulated by Sentence Processing</title>
+      <link>https://hugoweissbart.com/fr/publication/slaats2023/</link>
+      <pubDate>Wed, 28 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://hugoweissbart.com/fr/publication/slaats2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cortical Tracking of Surprisal during Continuous Speech Comprehension</title>

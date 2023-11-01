@@ -4,22 +4,30 @@
   <url>
     <loc>https://hugoweissbart.com/tutorials/trfs/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://hugoweissbart.com/draft/skills/</loc>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://hugoweissbart.com/draft/accomplishments/</loc>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://hugoweissbart.com/draft/projects/</loc>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://hugoweissbart.com/draft/publications/</loc>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://hugoweissbart.com/draft/tags/</loc>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://hugoweissbart.com/publication-type/3/</loc>
+    <loc>https://hugoweissbart.com/publication-type/article/</loc>
     <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://hugoweissbart.com/tag/meg/</loc>
     <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -33,12 +41,35 @@
   </url><url>
     <loc>https://hugoweissbart.com/tag/phase-amplitude-coupling/</loc>
     <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/tag/phase-amplitude-coupling/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/tag/phase-amplitude-coupling/"
+                />
   </url><url>
     <loc>https://hugoweissbart.com/tag/predictive-processing/</loc>
     <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/tag/predictive-processing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/tag/predictive-processing/"
+                />
   </url><url>
     <loc>https://hugoweissbart.com/publication_types/</loc>
     <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -52,6 +83,7 @@
   </url><url>
     <loc>https://hugoweissbart.com/publication/</loc>
     <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -63,21 +95,9 @@
                 href="https://hugoweissbart.com/publication/"
                 />
   </url><url>
-    <loc>https://hugoweissbart.com/</loc>
-    <lastmod>2023-10-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://hugoweissbart.com/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en-us"
-                href="https://hugoweissbart.com/"
-                />
-  </url><url>
     <loc>https://hugoweissbart.com/tag/speech/</loc>
     <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -91,6 +111,7 @@
   </url><url>
     <loc>https://hugoweissbart.com/tags/</loc>
     <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -104,40 +125,109 @@
   </url><url>
     <loc>https://hugoweissbart.com/publication/weissbart_preprint2023/</loc>
     <lastmod>2023-10-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugoweissbart.com/tag/trf/</loc>
-    <lastmod>2023-10-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://hugoweissbart.com/publication-type/2/</loc>
-    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://hugoweissbart.com/fr/publication-type/2/"
+                href="https://hugoweissbart.com/fr/publication/weissbart_preprint2023/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://hugoweissbart.com/publication-type/2/"
+                href="https://hugoweissbart.com/publication/weissbart_preprint2023/"
                 />
+  </url><url>
+    <loc>https://hugoweissbart.com/tag/trf/</loc>
+    <lastmod>2023-10-06T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/tag/trf/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/tag/trf/"
+                />
+  </url><url>
+    <loc>https://hugoweissbart.com/publication-type/article-journal/</loc>
+    <lastmod>2023-09-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://hugoweissbart.com/tag/cortical-oscillations/</loc>
     <lastmod>2023-09-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/tag/cortical-oscillations/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/tag/cortical-oscillations/"
+                />
   </url><url>
     <loc>https://hugoweissbart.com/tag/syntax/</loc>
     <lastmod>2023-09-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/tag/syntax/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/tag/syntax/"
+                />
   </url><url>
     <loc>https://hugoweissbart.com/publication/nat2023/</loc>
     <lastmod>2023-09-11T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/publication/nat2023/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/publication/nat2023/"
+                />
   </url><url>
     <loc>https://hugoweissbart.com/publication/tezcan2023/</loc>
     <lastmod>2023-07-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/publication/tezcan2023/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/publication/tezcan2023/"
+                />
   </url><url>
     <loc>https://hugoweissbart.com/publication/slaats2023/</loc>
     <lastmod>2023-06-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/publication/slaats2023/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/publication/slaats2023/"
+                />
   </url><url>
     <loc>https://hugoweissbart.com/tag/eeg/</loc>
     <lastmod>2023-06-28T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -151,27 +241,119 @@
   </url><url>
     <loc>https://hugoweissbart.com/tag/beta-oscillations/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/tag/beta-oscillations/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/tag/beta-oscillations/"
+                />
   </url><url>
     <loc>https://hugoweissbart.com/tag/dependency-parsing/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/tag/dependency-parsing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/tag/dependency-parsing/"
+                />
   </url><url>
     <loc>https://hugoweissbart.com/publication/zioga2023/</loc>
     <lastmod>2023-05-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/publication/zioga2023/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/publication/zioga2023/"
+                />
+  </url><url>
+    <loc>https://hugoweissbart.com/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/"
+                />
   </url><url>
     <loc>https://hugoweissbart.com/tag/backward-model/</loc>
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/tag/backward-model/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/tag/backward-model/"
+                />
   </url><url>
     <loc>https://hugoweissbart.com/tag/brainstem-recording/</loc>
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/tag/brainstem-recording/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/tag/brainstem-recording/"
+                />
   </url><url>
     <loc>https://hugoweissbart.com/tag/cortical-tracking/</loc>
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/tag/cortical-tracking/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/tag/cortical-tracking/"
+                />
   </url><url>
     <loc>https://hugoweissbart.com/publication/kegler2022/</loc>
     <lastmod>2022-07-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/publication/kegler2022/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/publication/kegler2022/"
+                />
   </url><url>
     <loc>https://hugoweissbart.com/tag/deep-learning/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -185,6 +367,7 @@
   </url><url>
     <loc>https://hugoweissbart.com/project/sentence_vae/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -198,6 +381,7 @@
   </url><url>
     <loc>https://hugoweissbart.com/project/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -211,9 +395,11 @@
   </url><url>
     <loc>https://hugoweissbart.com/talk/leuven/</loc>
     <lastmod>2020-01-14T13:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://hugoweissbart.com/talk/</loc>
     <lastmod>2020-01-14T13:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -227,6 +413,7 @@
   </url><url>
     <loc>https://hugoweissbart.com/publication/weissbart_jocn2020/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -240,15 +427,49 @@
   </url><url>
     <loc>https://hugoweissbart.com/publication/modulation_sin/</loc>
     <lastmod>2019-11-24T18:37:13+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/publication/modulation_sin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/publication/modulation_sin/"
+                />
   </url><url>
     <loc>https://hugoweissbart.com/tag/speech-comprehension/</loc>
     <lastmod>2019-11-24T18:37:13+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/tag/speech-comprehension/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/tag/speech-comprehension/"
+                />
   </url><url>
     <loc>https://hugoweissbart.com/tag/tacs/</loc>
     <lastmod>2019-11-24T18:37:13+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://hugoweissbart.com/fr/tag/tacs/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="https://hugoweissbart.com/tag/tacs/"
+                />
   </url><url>
     <loc>https://hugoweissbart.com/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -262,6 +483,7 @@
   </url><url>
     <loc>https://hugoweissbart.com/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -275,18 +497,23 @@
   </url><url>
     <loc>https://hugoweissbart.com/tutorials/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://hugoweissbart.com/talk/poster_snl2017/</loc>
     <lastmod>2017-06-01T13:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://hugoweissbart.com/tag/art/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://hugoweissbart.com/category/art/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://hugoweissbart.com/categories/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -300,6 +527,7 @@
   </url><url>
     <loc>https://hugoweissbart.com/post/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -313,9 +541,11 @@
   </url><url>
     <loc>https://hugoweissbart.com/post/sines-hackathon/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://hugoweissbart.com/project/composition/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -329,6 +559,7 @@
   </url><url>
     <loc>https://hugoweissbart.com/tag/computational-linguistic/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -342,6 +573,7 @@
   </url><url>
     <loc>https://hugoweissbart.com/project/example/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -355,6 +587,7 @@
   </url><url>
     <loc>https://hugoweissbart.com/tag/signal-processing/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -368,6 +601,7 @@
   </url><url>
     <loc>https://hugoweissbart.com/project/phase_trf/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -380,5 +614,6 @@
                 />
   </url><url>
     <loc>https://hugoweissbart.com/draft/</loc>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>
