@@ -13,7 +13,7 @@ publishDate: 2020-12-24T18:37:13+01:00
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["2"]
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "Modulation of Speech-in-Noise Comprehension Through Transcranial Current Stimulation With the Phase-Shifted Speech Envelope"
@@ -36,7 +36,7 @@ featured: false
 #   icon_pack: fab
 #   icon: twitter
 
-url_pdf:
+url_pdf: 'pdfs/modulation_SiN.pdf'
 url_code:
 url_dataset:
 url_poster:

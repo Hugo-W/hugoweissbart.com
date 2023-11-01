@@ -12,4 +12,5 @@ view: 1
 header:
   caption: "Selected Publications"
   image: "publication_header.jpg"
+
 ---

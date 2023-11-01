@@ -23,7 +23,7 @@ publishDate: "2023-10-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
 publication: bioRxiv
@@ -44,7 +44,7 @@ links:
  #- name: Data and software
   # url: https://figshare.com/articles/code/Example_code_for_linguistic_TRFs_in_delta_band/9034481/3
 
-#url_pdf: '/media/JoCN_Weissbart_2020.pdf'
+url_pdf: '/pdfs/Weissbart2023preprint.pdf'
 #url_code: 'https://figshare.com/articles/code/Example_code_for_linguistic_TRFs_in_delta_band/9034481/3'
 #url_dataset: 'https://figshare.com/articles/code/Example_code_for_linguistic_TRFs_in_delta_band/9034481/3'
 url_poster: ''

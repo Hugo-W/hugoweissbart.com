@@ -7,7 +7,7 @@ title: "Cortical Tracking of Surprisal during Continuous Speech Comprehension"
 authors:
 - hugo
 - Katerina D. Kandylaki
-- Tobias Reichenback
+- Tobias Reichenbach
 
 # Author notes (optional)
 #author_notes:
@@ -33,9 +33,9 @@ publication_short: JoCN
 abstract: Speech comprehension requires rapid online processing of a continuous acoustic signal to extract structure and meaning. Previous studies on sentence comprehension have found neural correlates of the predictability of a word given its context, as well as of the precision of such a prediction. However, they have focused on single sentences and on particular words in those sentences. Moreover, they compared neural responses to words with low and high predictability, as well as with low and high precision. However, in speech comprehension, a listener hears many successive words whose predictability and precision vary over a large range. Here, we show that cortical activity in different frequency bands tracks word surprisal in continuous natural speech and that this tracking is modulated by precision. We obtain these results through quantifying surprisal and precision from naturalistic speech using a deep neural network and through relating these speech features to EEG responses of human volunteers acquired during auditory story comprehension. We find significant cortical tracking of surprisal at low frequencies, including the delta band as well as in the higher frequency beta and gamma bands, and observe that the tracking is modulated by the precision. Our results pave the way to further investigate the neurobiology of natural speech comprehension.
 
 # Summary. An optional shortened abstract.
-summary: Surprisal as extracted from a recurrent enural network for language modelling is used, along with precision entropy (uncertainty about the next upcoming word), to compute temporal response functions as measured with EEG during naturalsitic story listening.
+summary: Word surprisal and word entropy, derived from a recurrent neural networl for language modelling, are represented in EEG signals in several freuqency bands. The neural encoding is quantified using temporal response functions with continuous EEG recorded during naturalsitic story listening.
 
-tags: [eeg, speech, comprehension]
+tags: [EEG, Speech, Predictive Processing, TRF]
 
 # Display this page in the Featured widget?
 featured: true
@@ -45,7 +45,7 @@ links:
  - name: Data and software
    url: https://figshare.com/articles/code/Example_code_for_linguistic_TRFs_in_delta_band/9034481/3
 
-url_pdf: ''
+url_pdf: '/media/JoCN_Weissbart_2020.pdf'
 url_code: 'https://figshare.com/articles/code/Example_code_for_linguistic_TRFs_in_delta_band/9034481/3'
 url_dataset: 'https://figshare.com/articles/code/Example_code_for_linguistic_TRFs_in_delta_band/9034481/3'
 url_poster: ''
@@ -57,7 +57,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: MIT press'
+  caption: 'Image credit: Hugo Weissbart'
   focal_point: ""
   preview_only: false
 
@@ -67,15 +67,14 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-- sentence_vae
-- phase_trf
+- eeg-correlates-comprehension
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
 {{% callout note %}}
