@@ -40,7 +40,7 @@ jobs:
           push-branch: 'master'
           commit-message: 'publishing built site (automated workflow)'
           force-add: 'true'
-          files: a.txt b.txt c.txt dirA/ dirB/ dirC/a.txt
+          # files: a.txt b.txt c.txt dirA/ dirB/ dirC/a.txt
           name: Hugo Weissbart (gh-action)
           email: hugo.weissbart@gmail.com
       # This won't work, this is a commit (normally to gh-pages branch, which I do not have)
