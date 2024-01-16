@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Categories | </title>
-    <link>https://hugoweissbart.com/fr/categories/</link>
-      <atom:link href="https://hugoweissbart.com/fr/categories/index.xml" rel="self" type="application/rss+xml" />
-    <description>Categories</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>fr</language><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://hugoweissbart.com/media/icon_hucc679a67ce0ba819370fc3906c9c7b25_53177_512x512_fill_lanczos_center_3.png</url>
-      <title>Categories</title>
-      <link>https://hugoweissbart.com/fr/categories/</link>
-    </image>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Categories |</title><link>https://hugoweissbart.com/fr/categories/</link><atom:link href="https://hugoweissbart.com/fr/categories/index.xml" rel="self" type="application/rss+xml"/><description>Categories</description><generator>Wowchemy (https://wowchemy.com)</generator><language>fr</language><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate><image><url>https://hugoweissbart.com/media/icon_hucc679a67ce0ba819370fc3906c9c7b25_53177_512x512_fill_lanczos_center_3.png</url><title>Categories</title><link>https://hugoweissbart.com/fr/categories/</link></image></channel></rss>

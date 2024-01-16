@@ -1,16 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Courses | Random Pattern &amp; Regular Noise</title>
-    <link>https://hugoweissbart.com/tutorials/</link>
-      <atom:link href="https://hugoweissbart.com/tutorials/index.xml" rel="self" type="application/rss+xml" />
-    <description>Courses</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
-    <image>
-      <url>https://hugoweissbart.com/media/icon_hucc679a67ce0ba819370fc3906c9c7b25_53177_512x512_fill_lanczos_center_3.png</url>
-      <title>Courses</title>
-      <link>https://hugoweissbart.com/tutorials/</link>
-    </image>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Courses | Random Pattern &amp; Regular Noise</title><link>https://hugoweissbart.com/tutorials/</link><atom:link href="https://hugoweissbart.com/tutorials/index.xml" rel="self" type="application/rss+xml"/><description>Courses</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate><image><url>https://hugoweissbart.com/media/icon_hucc679a67ce0ba819370fc3906c9c7b25_53177_512x512_fill_lanczos_center_3.png</url><title>Courses</title><link>https://hugoweissbart.com/tutorials/</link></image></channel></rss>
