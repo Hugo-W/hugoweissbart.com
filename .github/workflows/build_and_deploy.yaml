@@ -1,4 +1,4 @@
-name: Test
+name: Build with hugo
 
 on:
   workflow_dispatch:
@@ -21,7 +21,7 @@ jobs:
           hugo-version: '0.119.0'
           extended: true
 
-      # Caching hugo modules (for faster builds)
+      # Caching hugo modules (for faster builds) # not sure if it is useful 
       - uses: actions/cache@v3
         with:
           path: /home/runner/.cache/hugo_cache    # <-- with hugo version v0.116.0 and above
@@ -33,9 +33,11 @@ jobs:
       - name: 🛠️ Build Site
         run: hugo --minify
           
-      - name: 🚀 Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: master
-          publish_dir: ./docs
+      # This won't work, this is a commit (normally to gh-pages branch, which I do not have)
+      # so I let the automatic build and deployment workflow do this for me
+      # - name: 🚀 Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_branch: master # this won't work
+      #     publish_dir: ./docs
