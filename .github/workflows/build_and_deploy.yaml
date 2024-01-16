@@ -1,0 +1,40 @@
+name: Test
+
+on:
+workflow_dispatch:
+  push:
+    branches:
+      - master
+
+jobs:
+  # Build with hugo framework
+  build:
+    name: Build and Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛒 Checking out
+        uses: actions/checkout@v3
+
+      - name: ⚙️ Setup Hugo framework
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.119.0'
+          # extended: true
+
+      # Caching hugo modules (for faster builds)
+      - uses: actions/cache@v3
+        with:
+          path: /home/runner/.cache/hugo_cache    # <-- with hugo version v0.116.0 and above
+          # path: /tmp/hugo_cache                 # <-- with hugo version < v0.116.0
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugomod-
+
+      - name: 🛠️ Build Site
+        run: hugo --minify
+          
+      - name: 🚀 Deploy to Gh-Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
