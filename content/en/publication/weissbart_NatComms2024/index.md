@@ -23,11 +23,11 @@ publishDate: "2023-10-01T00:00:00Z"
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["article"]
+publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: weissbart_natcomms_2024
-publication_short: natcomms
+publication: Nature Communications
+publication_short: NatComms
 
 abstract: Humans excel at extracting structurally-determined meaning from speech despite inherent physical variability. This study explores the brain’s ability to predict and understand spoken language robustly. It investigates the relationship between structural and statistical language knowledge in brain dynamics, focusing on phase and amplitude modulation. Using syntactic features from constituent hierarchies and surface statistics from a transformer model as predictors of forward encoding models, we reconstructed cross-frequency neural dynamics from MEG data during audiobook listening. Our findings challenge a strict separation of linguistic structure and statistics in the brain, with both aiding neural signal reconstruction. Syntactic features have a more temporally spread impact, and both word entropy and the number of closing syntactic constituents are linked to the phase-amplitude coupling of neural dynamics, implying a role in temporal prediction and cortical oscillation alignment during speech processing. Our results indicate that structured and statistical information jointly shape neural dynamics during spoken language comprehension and suggest an integration process via a cross-frequency coupling mechanism.
 
@@ -56,7 +56,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: Hugo Weissbart'
+  caption: 'Image credit: Springer & Hugo Weissbart'
   focal_point: ""
   preview_only: false
 
