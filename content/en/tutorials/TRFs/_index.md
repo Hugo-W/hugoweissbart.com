@@ -17,7 +17,7 @@ type: docs  # Do not modify.
 # - weight: Position of link in menu.
 menu:
   TRFs:
-    name: Content
+    name: TRF tutorial
     weight: 1
 ---
 
