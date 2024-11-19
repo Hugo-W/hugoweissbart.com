@@ -29,16 +29,35 @@ $$
 y(t) = (x \star \beta) (t)
 $$
 
-In the context of finite computation the convolution is both discrete and finite, and the model can be written as:
+In the context of finite computation the convolution is both discrete and finite. In other words, our convolution is simply a linear combination of the input signal $x$ with the filter/TRF coefficients $\beta$ at different lags:
 
 $$
-y(t) &= \sum_{\tau=0}^{T} x(t-\tau) \beta(\tau)
-$$
-$$
-y[n] &= \sum_{\tau=0}^{k} x[n-k] \beta[k]
+y[n] &= \sum_{k=\tau_{min}}^{\tau_{max}} x[n-k] \beta[k]
 $$
 
-where $x(t)$ is the input signal and $y(t)$ is the output signal. The goal of the model is to estimate the filter $\beta(\tau)$ that best predicts the output signal $y(t)$ from the input signal $x(t)$.
+where $n$ is the time index, $k$ is the lag index, and $\tau_{min}$ and $\tau_{max}$ are the minimum and maximum lags, respectively.
+
+This last equation can be written in matrix form as:
+
+$$
+\mathbf{y} = \mathbf{X} \mathbf{\beta}
+$$
+
+where $y$ is the response vector, $X$ is the design matrix, and $\beta$ is the vector of coefficients. Here we finally recover the general form of a [linear model](https://en.wikipedia.org/wiki/Linear_model) $y = X \beta$.
+
+In our case, we generally have acces to a large number of samples compared to the number of features. That is, X has more rows than columns. We can retrieve the pseudo-inverse, and least squares solution of our model by solving the normal equation. To do so, we first left-multiply both sides of the equation by $X^T$:
+
+$$
+X^T y = X^T X \beta
+$$
+
+Then we solve for $\beta$:
+
+$$
+\beta = (X^T X)^{-1} X^T y
+$$
+
+This is the least squares solution of our linear model. In particular, the pseudo-inverse of $X$ is given by: $(X^T X)^{-1} X^T$. This is a simple linear multiplication, in matrix form, of our signal $y$, a sort of projection of $y$ onto the space spanned by the columns of $X$.
 
 ## What is a TRF?
 
