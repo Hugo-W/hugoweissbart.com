@@ -18,7 +18,7 @@ type: docs  # Do not modify.
 menu:
   TRFs:
     name: Content
-    weight: 2
+    weight: 1
 ---
 
 # Linear models: recap
@@ -28,6 +28,17 @@ _Temporal response functions_ or TRFs are a family of linear models. Specificall
 $$
 y(t) = (x \star \beta) (t)
 $$
+
+In the context of finite computation the convolution is both discrete and finite, and the model can be written as:
+
+$$
+\begin{aligned}
+y(t) &= \sum_{\tau=0}^{T} x(t-\tau) \beta(\tau) \\
+y[n] &= \sum_{\tau=0}^{k} x[n-k] \beta[k]
+\end{aligned}
+$$
+
+where $x(t)$ is the input signal and $y(t)$ is the output signal. The goal of the model is to estimate the filter $\beta(\tau)$ that best predicts the output signal $y(t)$ from the input signal $x(t)$.
 
 ## What is a TRF?
 
