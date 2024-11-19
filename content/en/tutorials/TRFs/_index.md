@@ -33,7 +33,7 @@ In the context of finite computation the convolution is both discrete and finite
 
 $$
 \begin{aligned}
-y(t) &= \sum_{\tau=0}^{T} x(t-\tau) \beta(\tau) \\
+y(t) &= \sum_{\tau=0}^{T} x(t-\tau) \beta(\tau) \\//
 y[n] &= \sum_{\tau=0}^{k} x[n-k] \beta[k]
 \end{aligned}
 $$
