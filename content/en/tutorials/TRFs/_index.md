@@ -32,7 +32,7 @@ $$
 In the context of finite computation the convolution is both discrete and finite. In other words, our convolution is simply a linear combination of the input signal $x$ with the filter/TRF coefficients $\beta$ at different lags:
 
 $$
-y[n] &= \sum_{k=\tau_{min}}^{\tau_{max}} x[n-k] \beta[k]
+y[n] = \sum_{k=\tau_{min}}^{\tau_{max}} x[n-k] \beta[k]
 $$
 
 where $n$ is the time index, $k$ is the lag index, and $\tau_{min}$ and $\tau_{max}$ are the minimum and maximum lags, respectively.
@@ -69,4 +69,4 @@ A TRF is a linear filter that is applied to a stimulus to predict the response o
 
 tbc
 
-<iframe src='https://hugow.pythonanywhere.com/'></iframe>
+<iframe src="https://hugow.pythonanywhere.com/" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>

@@ -1,3 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Art | Random Pattern &amp; Regular Noise</title><link>https://hugoweissbart.com/category/art/</link><atom:link href="https://hugoweissbart.com/category/art/index.xml" rel="self" type="application/rss+xml"/><description>Art</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 May 2017 00:00:00 +0000</lastBuildDate><image><url>https://hugoweissbart.com/media/icon_hucc679a67ce0ba819370fc3906c9c7b25_53177_512x512_fill_lanczos_center_3.png</url><title>Art</title><link>https://hugoweissbart.com/category/art/</link></image><item><title>SINES - AXNS Collective</title><link>https://hugoweissbart.com/post/sines-hackathon/</link><pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate><guid>https://hugoweissbart.com/post/sines-hackathon/</guid><description>&lt;iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2180317691/size=small/bgcol=333333/linkcol=4ec5ec/track=4257245953/transparent=true/" seamless>&lt;a href="https://axnscollective.bandcamp.com/album/sines-an-lsd-brain-wave-and-sound-art-hackathon">SINES - an LSD brain wave and sound art hackathon by AXNS Collective&lt;/a>&lt;/iframe>
-&lt;p>This piece was produced over a two-day brain wave and sound art hackathon in March 2017, organised by AXNS Collective and in collaboration with Imperial College London and Music Hackspace.&lt;/p>
-&lt;p>Bringing sound artists and neuroscientist together to synthesize sonic atmospheres and music from MEG activity recorded by Dr. Robin Carhart-Harris, Head of Psychedelic Research in the Division of Brain Sciences at Imperial College London. Listen to more &lt;a href="https://axnscollective.bandcamp.com/album/sines-an-lsd-brain-wave-and-sound-art-hackathon" target="_blank" rel="noopener">on the AXNS collective page&lt;/a>.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Art | Random Pattern &amp; Regular Noise</title>
+    <link>http://localhost:1313/category/art/</link>
+      <atom:link href="http://localhost:1313/category/art/index.xml" rel="self" type="application/rss+xml" />
+    <description>Art</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 May 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu5681794003264823082.png</url>
+      <title>Art</title>
+      <link>http://localhost:1313/category/art/</link>
+    </image>
+    
+    <item>
+      <title>SINES - AXNS Collective</title>
+      <link>http://localhost:1313/post/sines-hackathon/</link>
+      <pubDate>Tue, 16 May 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/sines-hackathon/</guid>
+      <description>&lt;iframe style=&#34;border: 0; width: 100%; height: 42px;&#34; src=&#34;https://bandcamp.com/EmbeddedPlayer/album=2180317691/size=small/bgcol=333333/linkcol=4ec5ec/track=4257245953/transparent=true/&#34; seamless&gt;&lt;a href=&#34;https://axnscollective.bandcamp.com/album/sines-an-lsd-brain-wave-and-sound-art-hackathon&#34;&gt;SINES - an LSD brain wave and sound art hackathon by AXNS Collective&lt;/a&gt;&lt;/iframe&gt;
+&lt;p&gt;This piece was produced over a two-day brain wave and sound art hackathon in March 2017, organised by AXNS Collective and in collaboration with Imperial College London and Music Hackspace.&lt;/p&gt;
+&lt;p&gt;Bringing sound artists and neuroscientist together to synthesize sonic atmospheres and music from MEG activity recorded by Dr. Robin Carhart-Harris, Head of Psychedelic Research in the Division of Brain Sciences at Imperial College London. Listen to more &lt;a href=&#34;https://axnscollective.bandcamp.com/album/sines-an-lsd-brain-wave-and-sound-art-hackathon&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;on the AXNS collective page&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
